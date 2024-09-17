@@ -52,10 +52,18 @@ function greet() {
 
 greet();
 
+/* Types of Functions */
+// Performing a task
 function greet(name, lastName) {
     console.log('Hello ' + name + ' ' + lastName);
 }
 
 greet('Poojitha', 'Nagallapati');
 
+// Calculating a value
+function square(number) {
+    return number * number * number;
+}
+
+console.log(square(3));
 

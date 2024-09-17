@@ -43,3 +43,19 @@ console.log(person.name);
 let selectedColors = ['blue' , 'black'];  //output comes with an index, index of first element(blue) is 0 and second element (black) is 1
 selectedColors[2] = 'red'
 console.log(selectedColors);  //I have mentioned the index of the second element
+
+/* Functions */  
+
+function greet() {
+    console.log('Hello World');
+}
+
+greet();
+
+function greet(name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+}
+
+greet('Poojitha', 'Nagallapati');
+
+

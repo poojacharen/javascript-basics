@@ -37,3 +37,9 @@ person['name'] = 'Hima';
 
 
 console.log(person.name);
+
+/* Arrays */ [] // Array literal
+
+let selectedColors = ['blue' , 'black'];  //output comes with an index, index of first element(blue) is 0 and second element (black) is 1
+selectedColors[2] = 'red'
+console.log(selectedColors);  //I have mentioned the index of the second element

@@ -19,3 +19,21 @@ let selectedColor = null; //If the user selects a color we can assign a color na
 //Two types of languages : Static and Dynamic languages
 //In static variable, the type of the variable is set and cannot be changed in the future 
 //In dynamic variable like JS, the type of variable can be changed in runtime
+
+
+// Reference Types - Objects, Arrays and Functions
+/* Objects */ {} // object literal
+
+let person = {
+name: 'Poojitha' ,
+age: 30
+};
+
+// Dot Notation
+person.name = 'Priya';
+
+// Bracket Notation
+person['name'] = 'Hima';
+
+
+console.log(person.name);

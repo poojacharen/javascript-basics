@@ -1,7 +1,15 @@
-  
+  /* Constants */
 const interestrate = 0.3;
 console.log(interestrate);
 
 // we dont want the value to change or else we'll end up with bugs
 // so instead of variable(let), we ust constants(const)
 // The value of the variable as the name implies can change, but the constant value cannot be changed
+
+/* Primitive Types */
+
+let name = 'Poojitha'; //String Literal
+let age = 29; //Number Literal
+let isApproved = true; //Boolean Literal - can be true or false
+let firstName = undefined;
+let selectedColor = null; //If the user selects a color we can assign a color name instead of null, if not selected then it is a null

@@ -1,13 +1,7 @@
   
-  let name = 'Poojitha';
-  console.log(name);
+const interestrate = 0.3;
+console.log(interestrate);
 
-  // Cannot be a reserved keyword
-  // Should be meaningful and descriptive names
-  // Cannot start with a number (1name)
-  // Cannot contain a space or hypen (-)
-  // Are case-sensitive
-
-  let firstName = 'Poojitha';
-  let lastName = 'Nagallapati';
-  
+// we dont want the value to change or else we'll end up with bugs
+// so instead of variable(let), we ust constants(const)
+// The value of the variable as the name implies can change, but the constant value cannot be changed

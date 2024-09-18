@@ -139,4 +139,25 @@ let type = points > 100 ? 'gold' : 'silver';
 console.log(type);
 
 
+/* Logical operators */
+
+// Logical AND (&&)
+// Returns TRUE if both operands are TRUE
+ console.log(true && true);
+ console.log(true && false);
+ console.log(false && false);
+
+// Real time example using && and || and !
+// Logical OR (||) Returns TRUE if one of the operands is TRUE
+let highIncome = false;
+let goodCreditScore = false;
+let eligibleForLoan = highIncome || goodCreditScore;
+console.log('Eligible', eligibleForLoan);
+
+// NOT (!) Whatever we give it gives the opposite, if it's false it gives true and viceversa
+let applicationRefused = !eligibleForLoan;
+console.log('Application Refused', applicationRefused);
+
+
+
 

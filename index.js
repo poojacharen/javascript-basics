@@ -90,4 +90,13 @@ console.log(x);
 console.log(x--);
 console.log(--x);
 
+/* Assignment operators (=) */ 
+
+let x = 20;
+
+x = x + 5;
+x += 5;
+
+x = x * 3;
+x *= 3;
 

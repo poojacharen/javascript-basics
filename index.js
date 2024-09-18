@@ -158,6 +158,21 @@ console.log('Eligible', eligibleForLoan);
 let applicationRefused = !eligibleForLoan;
 console.log('Application Refused', applicationRefused);
 
+/* Logical operators with Non-Booleans */
+
+// Falsy (False)
+// undefined
+// null
+// 0
+// false
+// ''
+// NaN (NotaNumber)
+
+let userColor = 'red';
+let defaultColor = 'blue'
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor);
 
 
 

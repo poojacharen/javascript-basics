@@ -116,4 +116,18 @@ console.log(x === 1); // x isequal to 1
 console.log(x !== 1); // x isnotequal to 1
 
 
+/* Equality operators */
+
+// Strict Equality (Type + Value)
+console.log(1 === 1);
+console.log('1' === 1);
+
+// Lose Equality (Value)
+console.log(1 == 1);
+console.log('1' == 1);
+console.log(true == 1);
+
+
+
+
 

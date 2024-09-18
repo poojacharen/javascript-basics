@@ -211,6 +211,17 @@ let w = (4 + 5) / 3; // numbers inside the paranthesis has higher precedence, so
 console.log(w);
 
 
+/* Exercise : Swapping Variables */
+
+let e = 'red';
+let f = 'blue';
+
+let g = e;
+e = f;
+f = g;
+
+console.log(e);
+console.log(f);
 
 
 

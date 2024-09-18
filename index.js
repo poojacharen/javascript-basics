@@ -67,3 +67,27 @@ function square(number) {
 
 console.log(square(3));
 
+
+/* Operators */
+/* Arithmetic Operators */
+
+let x = 50;
+let y = 40;
+
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
+console.log(x ** y);
+
+// Increment (++)
+console.log(x++);
+console.log(++x);
+console.log(x);
+
+// Decrement (--)
+console.log(x--);
+console.log(--x);
+
+

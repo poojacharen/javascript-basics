@@ -71,32 +71,49 @@ console.log(square(3));
 /* Operators */
 /* Arithmetic Operators */
 
-let x = 50;
-let y = 40;
+// let x = 50;
+// let y = 40;
 
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
-console.log(x ** y);
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
+// console.log(x ** y);
 
 // Increment (++)
-console.log(x++);
-console.log(++x);
-console.log(x);
+// console.log(x++);
+// console.log(++x);
+// console.log(x);
 
-// Decrement (--)
-console.log(x--);
-console.log(--x);
+//  Decrement (--)
+// console.log(x--);
+// console.log(--x);
 
 /* Assignment operators (=) */ 
 
-let x = 20;
+// let x = 20;
 
-x = x + 5;
-x += 5;
+// console.log(x = x + 5);
+// console.log(x += 5);
 
-x = x * 3;
-x *= 3;
+// console.log(x = x * 3);
+// console.log(x *= 3);
+
+
+/* Comparison operators */
+
+let x = 1;
+
+// Relational
+console.log(x > 0);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x >= 1);
+
+//Equality 
+console.log(x === 1); // x isequal to 1
+console.log(x !== 1); // x isnotequal to 1
+
+
 

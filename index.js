@@ -200,6 +200,16 @@ let message = (myPermission & readPermission) ? 'yes' : 'no';
 
 console.log(message);
 
+/* Operators Precedence */
+
+let z = 2 + 3 * 4; // multiplication operator has higher precedence, so it multiplies first and then adds the number
+
+console.log(z);
+
+let w = (4 + 5) / 3; // numbers inside the paranthesis has higher precedence, so it adds the number and later divides the number
+
+console.log(w);
+
 
 
 

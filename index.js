@@ -255,12 +255,16 @@ switch (role) {
             break;
 
             default:
-                console.log('Unknown User');
+                console.log('Known User');
 }
 
 if (role === 'guest') console.log('Guest User');
 else if (role === 'moderator') console.log('Moderator User');
-else console.log('Unknown User');
+else console.log('Known User');
+
+/* For */
+
+
 
 
 
